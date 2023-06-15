@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".getOTP"
+    android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/xyzEmail"
+    android:textSize="30sp"
+    android:fontFamily="sans-serif-black"
+    android:gravity="center_horizontal"
+    android:textColor="#059CE1"
+    android:layout_marginTop="10dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/enterOTP"
+    android:textSize="25sp"
+    android:layout_marginTop="20dp"
+    android:fontFamily="sans-serif-condensed-medium"
+    android:textColor="#061461"
+    android:gravity="center"
+    />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/stars"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:inputType="number"
+        android:id="@+id/etOTP" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:backgroundTint="#2196F3"
+        android:id="@+id/btnOk"/>
+    </LinearLayout>

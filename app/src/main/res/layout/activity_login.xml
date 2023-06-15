@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/ic_launcher_foreground"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/logInToApp"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#5F0BF4"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+        android:text="@string/username"
+        android:textColor="#293A98"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_vertical"
+        android:hint="@string/enterusername"
+        android:inputType="text"
+        android:textColorHint="#659A94"
+        android:textSize="20sp"
+        android:id="@+id/userName"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+        android:text="@string/password"
+        android:textColor="#454E83"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_vertical"
+        android:hint="@string/enterPassword"
+        android:inputType="text"
+        android:textColorHint="#659A94"
+        android:textSize="20sp"
+        android:id="@+id/etPassword"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/forgotPassword"
+        android:gravity="right"
+        android:textColor="#EA2020"
+        android:fontFamily="sans-serif"
+        android:id="@+id/forgotPassword"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#762893"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="@string/logIn"
+        android:textSize="20sp"
+        android:id="@+id/logIn" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/register"
+        android:textColor="#B80707"
+        android:id="@+id/register"
+        android:textSize="15sp"/>
+</LinearLayout>

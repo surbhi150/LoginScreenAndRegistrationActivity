@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enterusername">Enter Username</string>
+    <string name="forgetPassword">Forget Password</string>
+    <string name="enterPassword">Enter Password\n</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="email">Email</string>
+    <string name="enterEmailAddress">Enter Email</string>
+    <string name="password">Password</string>
+    <string name="next">Next</string>
+    <string name="registration">Registration</string>
+    <string name="name">Name</string>
+    <string name="enterYourName">Enter your name</string>
+    <string name="setNewPassword">Set New Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="enterNewPassword">Enter new password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="enterConfirmPassword">Confirm your password</string>
+    <string name="changePassword">Change Password</string>
+    <string name="Done">Done</string>
+    <string name="getOTP">Get OTP</string>
+    <string name="logInToApp">Log In To App</string>
+    <string name="username">Username</string>
+    <string name="logIn">Log In</string>
+    <string name="register">Don\'t have an account? Register</string>
+    <string name="enterOTP">Enter 4 digit OTP</string>
+    <string name="xyzEmail">xyz@gmail.com</string>
+    <string name="star">*</string>
+    <string name="stars">****</string>
+    <string name="ok">OK</string>
+</resources>

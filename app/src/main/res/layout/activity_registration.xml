@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#3F51B5"
+        android:layout_margin="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#041057"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterYourName"
+        android:autofillHints="name"
+        android:textColorHint="#04545E"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="20sp"
+        android:inputType="text"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#041057"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enterEmailAddress"
+        android:autofillHints="emailAddress"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:textColorHint="#04545E"/>
+
+</LinearLayout>
