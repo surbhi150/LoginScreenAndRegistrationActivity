@@ -39,6 +39,10 @@ class LoginActivity : AppCompatActivity() {
             }else if (etPassword.text.toString().isNullOrEmpty())
             {
                 etPassword.error = "enter your password"
+            }else{
+                var intent = Intent(this,WelcomeActivity::class.java)
+                startActivity(intent)
+                finish()
             }
 
 

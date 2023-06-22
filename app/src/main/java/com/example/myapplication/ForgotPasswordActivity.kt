@@ -19,7 +19,7 @@ class ForgetPasswordActivity : AppCompatActivity() {
             {
                 email.error = "enter your Email"
             }else{
-                var intent = Intent(this,GetOtpActivity::class.java)
+                var intent = Intent(this,getOTP::class.java)
                 startActivity(intent)
                 finish()}
 

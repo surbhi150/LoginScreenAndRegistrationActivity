@@ -28,4 +28,5 @@
     <string name="star">*</string>
     <string name="stars">****</string>
     <string name="ok">OK</string>
+    <string name="welcome">Welcome to Application</string>
 </resources>
